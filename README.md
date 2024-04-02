@@ -1,4 +1,4 @@
 # IISAN (SIGIR2024)
 IISAN: Efficiently Adapting Multimodal Representation for Sequential Recommendation with Decoupled PEFT
 
-## The code is coming soon. We plan to release all codes by April 30 2024.
+We are currently organizing the codes and datasets. We plan to release all codes by **April 30 2024.**
