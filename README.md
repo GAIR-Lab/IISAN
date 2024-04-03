@@ -14,7 +14,7 @@ We are currently organizing the codes and datasets. We plan to release all codes
 * [ ] Release Datasets and IISAN(Cached)'s hidden states
 * [ ] Combine Uncached and Cached IISAN in one framework
       
-**If you have any questions or find a bug, please feel free to open an issue or a pull request.**
+**If you encounter any questions or discover a bug within the paper or code, please do not hesitate to open an issue or submit a pull request.**
 
 # Abstract
 Multimodal foundation models are transformative in sequential recommender systems, leveraging powerful representation learning capabilities. While Parameter-efficient Fine-tuning (PEFT) is commonly used to adapt foundation models for recommendation tasks, most research prioritizes parameter efficiency, often overlooking critical factors like GPU memory efficiency and training speed. Addressing this gap, our paper introduces  IISAN (Intra- and Inter-modal Side Adapted Network for Multimodal Representation), a simple plug-and-play architecture using a Decoupled PEFT structure and exploiting both intra- and inter-modal adaptation. 
