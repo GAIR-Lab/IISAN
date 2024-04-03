@@ -26,3 +26,8 @@ Furthermore, we propose a new composite efficiency metric, TPME (Training-time, 
 
 ![](figs/Framework.png) 
 
+# Efficiency Analysis
+![](figs/efficiency-analysis.png) 
+
+# Efficiency Metric
+<img src="efficiency-metric.png" width="600" height="300"/>
