@@ -9,7 +9,7 @@ We are currently organizing the codes and datasets. We plan to release all codes
 
 ### TODO list sorted by priority
 * [ ] Release the IISAN(Uncached)
-* [ ] Release baseline approaches (Adapter, LoRA, and Full Finetuning (FFT))
+* [ ] Release baseline approaches
 * [ ] Release the IISAN(Cached)
 --By April 30 2024
 * [ ] Release Datasets and IISAN(Cached)'s hidden states
