@@ -7,10 +7,11 @@ We are currently organizing the codes and datasets. We plan to release all codes
 [Adapter4Rec](https://github.com/westlake-repl/Adapter4Rec)
 
 ### TODO list sorted by priority
-* [ ] Release the Uncached IISAN
+* [ ] Release the IISAN(Uncached)
 * [ ] Release baseline approaches (Adapter, LoRA, and Full Finetuning (FFT))
-* [ ] Release the Cached IISAN 
-* [ ] Release the Raw Datasets and Cached IISAN's hidden states
+* [ ] Release the IISAN(Cached)
+--By April 30 2024
+* [ ] Release Datasets and IISAN(Cached)'s hidden states
 * [ ] Combine Uncached and Cached IISAN in one framework
       
 If you have any questions or find a bug, please feel free to open an issue or a pull request.
