@@ -2,6 +2,7 @@
 <a href="https://arxiv.org/abs/2404.02059" alt="arXiv"><img src="https://img.shields.io/badge/arXiv-2404.02059-FAA41F.svg?style=flat" /></a>
 ![Multi-Modal](https://img.shields.io/badge/Task-Multi--Modal-red) 
 ![PEFT](https://img.shields.io/badge/Task-PEFT-red) 
+![Recommendation](https://img.shields.io/badge/Task-Recommendation-red) 
 
 We are currently organizing the codes and datasets. We plan to release all codes by **April 30 2024.** If you are interested in adopting parameter-efficient fine-tuning (PEFT) in recommendation you can also refer to our previous WSDM 2024 paper: 
 [Adapter4Rec](https://github.com/westlake-repl/Adapter4Rec)
