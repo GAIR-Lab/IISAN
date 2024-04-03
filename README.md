@@ -9,8 +9,8 @@ We are currently organizing the codes and datasets. We plan to release all codes
 ### TODO list sorted by priority
 * [ ] Release the Uncached IISAN
 * [ ] Release baseline approaches (Adapter, LoRA, and Full Finetuning (FFT))
-* [ ] Release the Cached IISAN with Features
-* [ ] Release the Raw Datasets
+* [ ] Release the Cached IISAN 
+* [ ] Release the Raw Datasets and Cached IISAN's hidden states
 * [ ] Combine Uncached and Cached IISAN in one framework
       
 If you have any questions or find a bug, please feel free to open an issue or a pull request.
