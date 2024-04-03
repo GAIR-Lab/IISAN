@@ -17,7 +17,7 @@ We are currently organizing the codes and datasets. We plan to release all codes
       
 **If you encounter any questions or discover a bug within the paper or code, please do not hesitate to open an issue or submit a pull request.**
 
-# Abstract
+## Abstract
 Multimodal foundation models are transformative in sequential recommender systems, leveraging powerful representation learning capabilities. While Parameter-efficient Fine-tuning (PEFT) is commonly used to adapt foundation models for recommendation tasks, most research prioritizes parameter efficiency, often overlooking critical factors like GPU memory efficiency and training speed. Addressing this gap, our paper introduces  IISAN (Intra- and Inter-modal Side Adapted Network for Multimodal Representation), a simple plug-and-play architecture using a Decoupled PEFT structure and exploiting both intra- and inter-modal adaptation. 
 
 IISAN matches the performance of full fine-tuning (FFT) and state-of-the-art PEFT. More importantly, it significantly reduces GPU memory usage — from 47GB to just 3GB for multimodal sequential recommendation tasks.  Additionally, it accelerates training time per epoch from 443s to 22s compared to FFT. This is also a notable improvement over the Adapter and LoRA, which require 37-39 GB GPU memory and 350-380 seconds per epoch for training. 
@@ -26,10 +26,10 @@ Furthermore, we propose a new composite efficiency metric, TPME (Training-time, 
 
 ![](figs/Framework.png) 
 
-# Efficiency Analysis
+## Efficiency Analysis
 ![](figs/efficiency-analysis.png) 
 
-# Efficiency Metric
+## Efficiency Metric
 <p align="center" width="100%">
 <img src="figs/efficiency-metric.png" width="500"/>
 </p>
