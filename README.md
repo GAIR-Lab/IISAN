@@ -29,7 +29,7 @@ Furthermore, we propose a new composite efficiency metric, TPME (Training-time, 
 ## Efficiency Analysis
 ![](figs/efficiency-analysis.png) 
 
-## Efficiency Metric
+## New Efficiency Metric - TPME (Training-time, Parameter, GPU Memory Efficiency)
 <p align="center" width="100%">
 <img src="figs/efficiency-metric.png" width="500"/>
 </p>
