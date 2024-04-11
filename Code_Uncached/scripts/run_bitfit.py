@@ -24,14 +24,14 @@ epoch = 100
 load_ckpt_name = 'None'
 pretrained_recsys_model = 'None'
 
-adapter_type = "bitfit" #kadapter
+adapter_type = "bitfit"
 l2_weight_list = [0]
 drop_rate_list = [0.1]
 batch_size_list = [32]
 lr_list = [2e-4]
 embedding_dim_list = [64]
-adapter_cv_lr_list = [4e-4] #1e4 4e4
-adapter_bert_lr_list = [1e-4] #4e4
+adapter_cv_lr_list = [4e-4] 
+adapter_bert_lr_list = [4e-4]
 adding_adapter_to_list = ['all']
 #None or all
 fine_tune_to_list = ['None']
