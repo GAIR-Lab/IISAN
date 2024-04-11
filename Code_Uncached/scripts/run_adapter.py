@@ -30,7 +30,7 @@ batch_size_list = [32]
 lr_list = [2e-4] # learning rate for user encoder
 embedding_dim_list = [64]
 adapter_cv_lr_list = [4e-4] #4e4
-adapter_bert_lr_list = [1e-4] #4e4
+adapter_bert_lr_list = [4e-4] #4e4
 #None or all
 fine_tune_to_list = ['None']
 # None or TRUE
