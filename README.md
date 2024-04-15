@@ -41,7 +41,7 @@ cd Code_Uncached/scripts/
 python run_IISAN.py
 ```
 ## Experiment with Cached Code 
-Note: Theoretically Caching will only improve the training speed and do not affect the performance.
+**Note: Theoretically, Caching will only improve the training efficiency and maintain the original the performance.**
 ```
 cd Code_Cached/scripts/
 python run_IISAN.py
