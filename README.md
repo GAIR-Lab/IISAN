@@ -40,6 +40,12 @@ pip install torch==1.13.0 torchvision==0.14.0 torchaudio==0.13.0 loralib==0.1.1 
 cd Code_Uncached/scripts/
 python run_IISAN.py
 ```
+## Experiment with Cached Code 
+Note: Theoretically Caching will only improve the training speed and do not affect the performance.
+```
+cd Code_Cached/scripts/
+python run_IISAN.py
+```
 
 ## Efficiency Analysis
 ![](figs/efficiency-analysis.png) 
