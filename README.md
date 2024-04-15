@@ -13,7 +13,7 @@ We are currently organizing the codes and datasets. We plan to release all codes
 * [x] Release the IISAN(Cached)
 --By April 30, 2024 (Completed early on April 15, 2024)
 * [ ] Release Datasets and IISAN(Cached)'s hidden states
-* [ ] Combine Uncached and Cached IISAN in one framework
+* [ ] Combine Uncached and Cached IISAN in one framework --By May 15, 2024
       
 
 **If you encounter any questions or discover a bug within the paper or code, please do not hesitate to open an issue or submit a pull request.**
