@@ -10,8 +10,8 @@ We are currently organizing the codes and datasets. We plan to release all codes
 ### TODO list sorted by priority
 * [x] Release the IISAN(Uncached)
 * [x] Release baseline approaches
-* [ ] Release the IISAN(Cached)
---By April 30, 2024
+* [x] Release the IISAN(Cached)
+--By April 15, 2024
 * [ ] Release Datasets and IISAN(Cached)'s hidden states
 * [ ] Combine Uncached and Cached IISAN in one framework
       
@@ -43,7 +43,10 @@ python run_IISAN.py
 ## Training & Testing for IISAN(Cached) 
 **Note: Theoretically, IISAN(Cached) will only improve the training efficiency and maintain the original performance of IISAN(Uncached).**
 ```
-cd Code_Cached/scripts/
+cd Code_Cached/
+python preprocess_vectors.py
+
+cd scripts/
 python run_IISAN.py
 ```
 
