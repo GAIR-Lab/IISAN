@@ -35,13 +35,13 @@ conda activate iisan
 
 pip install torch==1.13.0 torchvision==0.14.0 torchaudio==0.13.0 loralib==0.1.1 transformers==4.20.1 lmdb
 ```
-## Experiment with Uncached Code
+## Training & Testing for IISAN(Uncached)
 ```
 cd Code_Uncached/scripts/
 python run_IISAN.py
 ```
-## Experiment with Cached Code 
-**Note: Theoretically, Caching will only improve the training efficiency and maintain the original performance.**
+## Training & Testing for IISAN(Cached) 
+**Note: Theoretically, IISAN(Cached) will only improve the training efficiency and maintain the original performance of IISAN(Uncached).**
 ```
 cd Code_Cached/scripts/
 python run_IISAN.py
