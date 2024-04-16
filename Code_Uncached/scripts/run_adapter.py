@@ -23,7 +23,7 @@ modality = "intra"
 epoch = 100
 load_ckpt_name = 'None'
 
-adapter_type = "houslby" #kadapter
+adapter_type = "houslby"
 l2_weight_list = [0]
 drop_rate_list = [0.1]
 batch_size_list = [32]
