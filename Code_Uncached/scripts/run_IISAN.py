@@ -26,7 +26,7 @@ pretrained_recsys_model = 'None'
 
 adapter_type = "IISAN" 
 drop_rate_list = [0.1]
-batch_size_list = [32]
+batch_size_list = [64]
 lr_list = [2e-4]
 embedding_dim_list = [64]
 adapter_cv_lr_list = [1e-4] #4e4
