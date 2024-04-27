@@ -48,13 +48,13 @@ Download the image files:
 
 You should unzip these zip files under "Dataset/". Then run the following to get the lmdb files:
 ```
-cd Dataset/Scientific
+cd Dataset/
 python build_lmdb.py
 ```
 
 To get the hidden states for IISAN(Cached), run the following:
 ```
-cd ../../
+cd ../
 cd Code_Cached/
 python preprocess_vectors.py
 ```
