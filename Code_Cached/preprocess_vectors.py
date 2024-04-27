@@ -43,7 +43,6 @@ def load_text_data(file_path):
     with open(file_path, 'r') as file:
         for line in file:
             item_id, item_title = line.strip().split('\t')
-            print(item_id)
             texts[item_id] = item_title
     return texts
 
