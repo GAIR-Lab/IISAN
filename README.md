@@ -12,7 +12,7 @@ We are currently organizing the codes and datasets. We plan to release all codes
 * [x] Release baseline approaches
 * [x] Release the IISAN(Cached)
 --By April 30, 2024 (Completed early on April 15, 2024)
-* [ ] Release Datasets and IISAN(Cached)'s hidden states
+* [x] Release Datasets and IISAN(Cached)'s hidden states
 * [ ] Combine Uncached and Cached IISAN in one framework
       
 
@@ -35,6 +35,31 @@ conda activate iisan
 
 pip install torch==1.13.0 torchvision==0.14.0 torchaudio==0.13.0 loralib==0.1.1 transformers==4.20.1 lmdb
 ```
+## Preparation
+The complete textual recommendation datasets are available under the Dataset directory. 
+
+Download the image files:
+
+"am_image_is.zip" for Scientific dataset from this [link](https://drive.google.com/file/d/1vXLls-2DvvkMfgiCv3nB8C29nu0NDdt3/view?usp=sharing)
+
+"am_image_mi.zip" for Instruments dataset from this [link](https://drive.google.com/file/d/1icKbl3ltN28WDESSKOdhOA0pNWIiNxe0/view?usp=sharing)
+
+"am_image_op.zip" for Office dataset from this [link](https://drive.google.com/file/d/1zl-RbSNwUmQicCB3w1xY9RQWN8vGg5pC/view?usp=sharing)
+
+You should unzip these zip files under "Dataset/". Then run the following to get the lmdb files:
+```
+cd Dataset/Scientific
+python build_lmdb.py
+```
+
+To get the hidden states for IISAN(Cached), run the following:
+```
+cd ../../
+cd Code_Cached/
+python preprocess_vectors.py
+```
+
+
 ## Training & Testing for IISAN(Uncached)
 ```
 cd Code_Uncached/scripts/

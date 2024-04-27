@@ -23,13 +23,15 @@ class LMDB_Image:
 
 
 if __name__ == '__main__':
-    name_list = ['Industrial_and_Scientific', 'Musical_Instruments', 'Tools_and_Home_Improvement']
+    name_list = ['Industrial_and_Scientific', 'Musical_Instruments', 'Office_Products']
+    folder_name_list = ['Scientific', 'Instrument', 'Office']
 
 
-    for name in name_list:
+
+    for index, name in enumerate(name_list):
         print(f"processing {name}")
         print('build lmdb database')
-        nc_items = pd.read_table(f'am_{name}_items.tsv', header=None)
+        nc_items = pd.read_table(f'{folder_name_list[index]}/{name}_items.tsv', header=None)
         nc_items.columns=['item_id']
         image_num = len(nc_items)
         print("all images %s" % image_num)
