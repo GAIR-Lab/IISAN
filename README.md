@@ -52,13 +52,6 @@ cd Dataset/
 python build_lmdb.py
 ```
 
-To get the hidden states for IISAN(Cached), run the following:
-```
-cd ../
-cd Code_Cached/
-python preprocess_vectors.py
-```
-
 
 ## Training & Testing for IISAN(Uncached)
 ```
