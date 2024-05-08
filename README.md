@@ -4,7 +4,7 @@
 ![PEFT](https://img.shields.io/badge/Task-PEFT-red) 
 ![Recommendation](https://img.shields.io/badge/Task-Recommendation-red) 
 
-We are currently organizing the codes and datasets. We plan to release all codes by **April 30, 2024.** If you are interested in adopting parameter-efficient fine-tuning (PEFT) in recommendation you can also refer to our previous WSDM 2024 paper: 
+If you are interested in adopting parameter-efficient fine-tuning (PEFT) in recommendation you can also refer to our previous WSDM 2024 paper: 
 [Adapter4Rec](https://github.com/westlake-repl/Adapter4Rec)
 
 ### TODO list sorted by priority
