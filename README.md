@@ -79,6 +79,7 @@ python run_IISAN.py
 where $\alpha$ denotes the weighting assigned to each term, tailored to specific circumstances. For example, in scenarios where only a limited GPU capacity is available for model training, it's advisable to significantly augment the weight of $M$. Within the scope of this paper, we've adjusted the values of $\alpha_1$ and $\alpha_3$ to 0.45, and $\alpha_2$ to 0.1. This adjustment reflects our focus on two key practical aspects: training speed and memory efficiency.
 
 ## Citation
+If you find our paper useful in your work, please cite our paper as:
 ```
 @article{fu2024iisan,
   title={IISAN: Efficiently Adapting Multimodal Representation for Sequential Recommendation with Decoupled PEFT},
