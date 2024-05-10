@@ -32,7 +32,8 @@ if __name__ == '__main__':
         print(f"processing {name}")
         print('build lmdb database')
         nc_items = pd.read_table(f'{folder_name_list[index]}/{name}_items.tsv', header=None)
-        nc_items.columns=['item_id']
+        nc_items.columns=['item_id',"title"]
+        nc_items = nc_items[['item_id']]
         image_num = len(nc_items)
         print("all images %s" % image_num)
 
