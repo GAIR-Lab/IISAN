@@ -52,7 +52,7 @@ You should unzip these zip files under "Dataset/". Then run the following to get
 cd Dataset/
 python build_lmdb.py
 ```
-
+Download "pytorch_model.bin" of the vit-base-patch16-224 from this [link](https://huggingface.co/google/vit-base-patch16-224) and bert-base-uncased from this [link](https://huggingface.co/google-bert/bert-base-uncased). Then put them under the respective subfolder under "pretrained_models/".
 
 ## Training & Testing for IISAN(Uncached)
 ```
