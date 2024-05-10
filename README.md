@@ -1,6 +1,6 @@
 # IISAN: Efficiently Adapting Multimodal Representation for Sequential Recommendation with Decoupled PEFT (SIGIR2024)
 <a href="https://arxiv.org/abs/2404.02059" alt="arXiv"><img src="https://img.shields.io/badge/arXiv-2404.02059-FAA41F.svg?style=flat" /></a>
-<a href="https://zhuanlan.zhihu.com/p/696297979" alt="中文博客"><img src="https://img.shields.io/badge/博客-中文-orange.svg?style=flat" /></a> 
+<a href="https://mp.weixin.qq.com/s/fiCiPehSmDCM8ys3-xMwQg" alt="中文博客"><img src="https://img.shields.io/badge/博客-中文-orange.svg?style=flat" /></a> 
 ![Multi-Modal](https://img.shields.io/badge/Task-Multi--Modal-red) 
 ![PEFT](https://img.shields.io/badge/Task-PEFT-red) 
 ![Recommendation](https://img.shields.io/badge/Task-Recommendation-red) 
@@ -14,7 +14,7 @@ If you are interested in adopting parameter-efficient fine-tuning (PEFT) in reco
 * [x] Release the IISAN(Cached)
 --By April 30, 2024 (Completed early on April 15, 2024)
 * [x] Release Datasets and IISAN(Cached)'s hidden states
-* [ ] Combine Uncached and Cached IISAN in one framework
+
       
 
 **If you encounter any questions or discover a bug within the paper or code, please do not hesitate to open an issue or submit a pull request.**
