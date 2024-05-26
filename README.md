@@ -35,7 +35,7 @@ conda create -n iisan python=3.8
 
 conda activate iisan
 
-pip install torch==1.13.0 torchvision==0.14.0 torchaudio==0.13.0 loralib==0.1.1 transformers==4.20.1 lmdb
+pip install torch==1.13.0 torchvision==0.14.0 torchaudio==0.13.0 loralib==0.1.1 transformers==4.20.1 lmdb pandas
 ```
 ## Preparation
 The complete textual recommendation datasets are available under the Dataset directory. 
