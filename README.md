@@ -83,10 +83,11 @@ where $\alpha$ denotes the weighting assigned to each term, tailored to specific
 ## Citation
 If you find our paper useful in your work, please cite our paper as:
 ```
-@article{fu2024iisan,
+@inproceedings{fu2024iisan,
   title={IISAN: Efficiently Adapting Multimodal Representation for Sequential Recommendation with Decoupled PEFT},
   author={Fu, Junchen and Ge, Xuri and Xin, Xin and Karatzoglou, Alexandros and Arapakis, Ioannis and Wang, Jie and Jose, Joemon M},
-  journal={arXiv preprint arXiv:2404.02059},
+  booktitle={Proceedings of the 47th International ACM SIGIR Conference on Research and Development in Information Retrieval},
+  pages={687--697},
   year={2024}
 }
 ```
