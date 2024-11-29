@@ -78,7 +78,14 @@ python run_IISAN.py
 <img src="figs/efficiency-metric.png" width="500"/>
 </p>
 
-where $\alpha$ denotes the weighting assigned to each term, tailored to specific circumstances. For example, in scenarios where only a limited GPU capacity is available for model training, it's advisable to significantly augment the weight of $M$. Within the scope of this paper, we've adjusted the values of $\alpha_1$ and $\alpha_3$ to 0.45, and $\alpha_2$ to 0.1. This adjustment reflects our focus on two key practical aspects: training speed and memory efficiency.
+where $\alpha$ denotes the weighting assigned to each term, tailored to specific circumstances, for example, in scenarios where only a limited GPU capacity is available for model training, it's advisable to significantly augment the weight of $M$. Within the scope of this paper, we've adjusted the values of $\alpha_1$ and $\alpha_3$ to 0.45, and $\alpha_2$ to 0.1. This adjustment reflects our focus on two key practical aspects: training speed and memory efficiency.
+
+## Join the GAIR Lab at the University of Glasgow
+
+Our **GAIR Lab**, specializing in **generative AI solutions for information retrieval tasks**, is actively seeking **highly motivated Ph.D. students** with a strong background in **artificial intelligence**.
+
+If you're interested, please contact **Prof. Joemon Jose** at [joemon.jose@gla.ac.uk](mailto:joemon.jose@gla.ac.uk).
+
 
 ## Citation
 If you find our paper useful in your work, please cite our paper as:
