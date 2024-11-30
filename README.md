@@ -82,7 +82,7 @@ where $\alpha$ denotes the weighting assigned to each term, tailored to specific
 
 ## Join the GAIR Lab at the University of Glasgow
 
-Our **GAIR Lab**, specializing in **generative AI solutions for information retrieval tasks**, is actively seeking **highly motivated Ph.D. students** with a strong background in **artificial intelligence**.
+Our [**GAIR Lab**](https://gair-lab.github.io/), specializing in **generative AI solutions for information retrieval tasks**, is actively seeking **highly motivated Ph.D. students** with a strong background in **artificial intelligence**.
 
 If you're interested, please contact **Prof. Joemon Jose** at [joemon.jose@glasgow.ac.uk](mailto:joemon.jose@glasgow.ac.uk).
 
