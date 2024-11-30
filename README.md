@@ -80,13 +80,6 @@ python run_IISAN.py
 
 where $\alpha$ denotes the weighting assigned to each term, tailored to specific circumstances, for example, in scenarios where only a limited GPU capacity is available for model training, it's advisable to significantly augment the weight of $M$. Within the scope of this paper, we've adjusted the values of $\alpha_1$ and $\alpha_3$ to 0.45, and $\alpha_2$ to 0.1. This adjustment reflects our focus on two key practical aspects: training speed and memory efficiency.
 
-## Join the GAIR Lab at the University of Glasgow
-
-Our [**GAIR Lab**](https://gair-lab.github.io/), specializing in **generative AI solutions for information retrieval tasks**, is actively seeking **highly motivated Ph.D. students** with a strong background in **artificial intelligence**.
-
-If you're interested, please contact **Prof. Joemon Jose** at [joemon.jose@glasgow.ac.uk](mailto:joemon.jose@glasgow.ac.uk).
-
-
 ## Citation
 If you find our paper useful in your work, please cite our paper as:
 ```
@@ -99,3 +92,16 @@ If you find our paper useful in your work, please cite our paper as:
 }
 ```
 
+
+
+
+## Join the GAIR Lab at the University of Glasgow
+
+Our [**GAIR Lab**](https://gair-lab.github.io/), specializing in **generative AI solutions for information retrieval tasks**, is actively seeking **highly motivated Ph.D. students** with a strong background in **artificial intelligence**.
+
+If you're interested, please contact **Prof. Joemon Jose** at [joemon.jose@glasgow.ac.uk](mailto:joemon.jose@glasgow.ac.uk).
+
+
+<p align="center" width="100%">
+<img src="figs/logo.png" width="800"/>
+</p>
