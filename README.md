@@ -84,7 +84,7 @@ where $\alpha$ denotes the weighting assigned to each term, tailored to specific
 
 Our **GAIR Lab**, specializing in **generative AI solutions for information retrieval tasks**, is actively seeking **highly motivated Ph.D. students** with a strong background in **artificial intelligence**.
 
-If you're interested, please contact **Prof. Joemon Jose** at [joemon.jose@gla.ac.uk](mailto:joemon.jose@gla.ac.uk).
+If you're interested, please contact **Prof. Joemon Jose** at [joemon.jose@glasgow.ac.uk](mailto:joemon.jose@glasgow.ac.uk).
 
 
 ## Citation
