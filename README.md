@@ -8,6 +8,7 @@
 
 # [TKDE] Efficient and effective adaptation of multimodal foundation models in sequential recommendation
 <a href="https://arxiv.org/abs/2411.02992" alt="arXiv"><img src="https://img.shields.io/badge/arXiv-2411.02992-FAA41F.svg?style=flat" /></a>
+
 If you are interested in adopting parameter-efficient fine-tuning (PEFT) in recommendation you can also refer to our previous WSDM 2024 paper: 
 [Adapter4Rec](https://github.com/westlake-repl/Adapter4Rec)
 
@@ -97,6 +98,12 @@ If you find our paper useful in your work, please cite our paper as:
   author={Fu, Junchen and Ge, Xuri and Xin, Xin and Karatzoglou, Alexandros and Arapakis, Ioannis and Wang, Jie and Jose, Joemon M},
   booktitle={Proceedings of the 47th International ACM SIGIR Conference on Research and Development in Information Retrieval},
   pages={687--697},
+  year={2024}
+}
+@article{fu2024efficient,
+  title={Efficient and effective adaptation of multimodal foundation models in sequential recommendation},
+  author={Fu, Junchen and Ge, Xuri and Xin, Xin and Karatzoglou, Alexandros and Arapakis, Ioannis and Zheng, Kaiwen and Ni, Yongxin and Jose, Joemon M},
+  journal={arXiv preprint arXiv:2411.02992},
   year={2024}
 }
 ```
