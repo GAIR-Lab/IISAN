@@ -1,11 +1,13 @@
-# IISAN: Efficiently Adapting Multimodal Representation for Sequential Recommendation with Decoupled PEFT (SIGIR2024)
-<a href="https://arxiv.org/abs/2404.02059" alt="arXiv"><img src="https://img.shields.io/badge/arXiv-2404.02059-FAA41F.svg?style=flat" /></a>
-<a href="https://mp.weixin.qq.com/s/fiCiPehSmDCM8ys3-xMwQg" alt="中文博客"><img src="https://img.shields.io/badge/博客-中文-orange.svg?style=flat" /></a> 
-<a href="https://zhuanlan.zhihu.com/p/696297979" alt="知乎"><img src="https://img.shields.io/badge/知乎-中文-%23002FA7.svg?style=flat" /></a> 
+# [SIGIR2024] IISAN: Efficiently Adapting Multimodal Representation for Sequential Recommendation with Decoupled PEFT
 ![Multi-Modal](https://img.shields.io/badge/Task-Multi--Modal-red) 
 ![PEFT](https://img.shields.io/badge/Task-PEFT-red) 
 ![Recommendation](https://img.shields.io/badge/Task-Recommendation-red) 
+<a href="https://arxiv.org/abs/2404.02059" alt="arXiv"><img src="https://img.shields.io/badge/arXiv-2404.02059-FAA41F.svg?style=flat" /></a>
+<a href="https://mp.weixin.qq.com/s/fiCiPehSmDCM8ys3-xMwQg" alt="中文博客"><img src="https://img.shields.io/badge/博客-中文-orange.svg?style=flat" /></a> 
+<a href="https://zhuanlan.zhihu.com/p/696297979" alt="知乎"><img src="https://img.shields.io/badge/知乎-中文-%23002FA7.svg?style=flat" /></a> 
 
+# [TKDE] Efficient and effective adaptation of multimodal foundation models in sequential recommendation
+<a href="https://arxiv.org/abs/2411.02992" alt="arXiv"><img src="https://img.shields.io/badge/arXiv-2411.02992-FAA41F.svg?style=flat" /></a>
 If you are interested in adopting parameter-efficient fine-tuning (PEFT) in recommendation you can also refer to our previous WSDM 2024 paper: 
 [Adapter4Rec](https://github.com/westlake-repl/Adapter4Rec)
 
@@ -15,12 +17,13 @@ If you are interested in adopting parameter-efficient fine-tuning (PEFT) in reco
 * [x] Release the IISAN(Cached)
 --By April 30, 2024 (Completed early on April 15, 2024)
 * [x] Release Datasets and IISAN(Cached)'s hidden states
+* [] Release the Implementation of IISAN-Versa --By October 15th, 2025
 
       
 
 **If you encounter any questions or discover a bug within the paper or code, please do not hesitate to open an issue or submit a pull request.**
 
-## Abstract
+## IISAN Introduction
 Multimodal foundation models are transformative in sequential recommender systems, leveraging powerful representation learning capabilities. While Parameter-efficient Fine-tuning (PEFT) is commonly used to adapt foundation models for recommendation tasks, most research prioritizes parameter efficiency, often overlooking critical factors like GPU memory efficiency and training speed. Addressing this gap, our paper introduces  IISAN (Intra- and Inter-modal Side Adapted Network for Multimodal Representation), a simple plug-and-play architecture using a Decoupled PEFT structure and exploiting both intra- and inter-modal adaptation. 
 
 IISAN matches the performance of full fine-tuning (FFT) and state-of-the-art PEFT. More importantly, it significantly reduces GPU memory usage — from 47GB to just 3GB for multimodal sequential recommendation tasks.  Additionally, it accelerates training time per epoch from 443s to 22s compared to FFT. This is also a notable improvement over the Adapter and LoRA, which require 37-39 GB GPU memory and 350-380 seconds per epoch for training. 
@@ -28,6 +31,12 @@ IISAN matches the performance of full fine-tuning (FFT) and state-of-the-art PEF
 Furthermore, we propose a new composite efficiency metric, TPME (Training-time, Parameter, and GPU Memory Efficiency) to alleviate the prevalent misconception that "parameter efficiency represents overall efficiency". TPME provides more comprehensive insights into practical efficiency comparisons between different methods. Besides, we give an accessible efficiency analysis of all PEFT and FFT approaches, which demonstrate the superiority of IISAN.
 
 ![](figs/Framework.png) 
+
+
+## IISAN-Versa Introduction
+IISAN was limited to symmetrical MFMs and identical text and image encoders, preventing the use of state-of-the-art Large Language Models. To overcome this, we developed IISAN-Versa, a versatile plug-and-play architecture compatible with both symmetrical and asymmetrical MFMs. IISAN-Versa employs a Decoupled PEFT structure and utilizes both intra- and inter-modal adaptation. It effectively handles asymmetry through a simple yet effective combination of group layer-dropping and dimension transformation alignment. Our research demonstrates that IISAN-Versa effectively adapts large text encoders, and we further identify a scaling effect where larger encoders generally perform better. IISAN-Versa also demonstrates strong versatility in our defined multimodal scenarios, which include raw titles and captions generated from images and videos. Additionally, IISAN-Versa achieved state-of-the-art performance on the Microlens public benchmark. We will release our code and datasets to support future research.
+
+![](figs/Framework-iisan-versa.png) 
 
 ## Experiment Setup
 ```
