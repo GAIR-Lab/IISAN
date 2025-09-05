@@ -18,7 +18,7 @@ If you are interested in adopting parameter-efficient fine-tuning (PEFT) in reco
 * [x] Release the IISAN(Cached)
 --By April 30, 2024 (Completed early on April 15, 2024)
 * [x] Release Datasets and IISAN(Cached)'s hidden states
-* [] Release the Implementation of IISAN-Versa --By October 15th, 2025
+* [ ] Release the Implementation of IISAN-Versa --By October 15th, 2025
 
       
 
