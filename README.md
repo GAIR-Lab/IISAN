@@ -6,7 +6,7 @@
 <a href="https://mp.weixin.qq.com/s/fiCiPehSmDCM8ys3-xMwQg" alt="中文博客"><img src="https://img.shields.io/badge/博客-中文-orange.svg?style=flat" /></a> 
 <a href="https://zhuanlan.zhihu.com/p/696297979" alt="知乎"><img src="https://img.shields.io/badge/知乎-中文-%23002FA7.svg?style=flat" /></a> 
 
-# [TKDE] Efficient and effective adaptation of multimodal foundation models in sequential recommendation
+# [TKDE] Efficient and Effective Adaptation of Multimodal Foundation Models in Sequential Recommendation
 <a href="https://arxiv.org/abs/2411.02992" alt="arXiv"><img src="https://img.shields.io/badge/arXiv-2411.02992-FAA41F.svg?style=flat" /></a>
 
 If you are interested in adopting parameter-efficient fine-tuning (PEFT) in recommendation you can also refer to our previous WSDM 2024 paper: 
