@@ -80,7 +80,7 @@ def process_items(texts, model, tokenizer, max_length=30, batch_size=128):
 def load_and_save():
     device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
     print("loading LLaMA...")
-    auth_token = "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"
+    auth_token = "<your_token>"
     config = AutoConfig.from_pretrained("TechxGenus/Meta-Llama-3-70B-GPTQ",disable_exllama=True, output_hidden_states=True,token=auth_token)
     llama_tokenizer = AutoTokenizer.from_pretrained("TechxGenus/Meta-Llama-3-70B-GPTQ", token=auth_token)
     llama_model = LlamaForCausalLM.from_pretrained("TechxGenus/Meta-Llama-3-70B-GPTQ", config=config, token=auth_token)
