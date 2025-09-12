@@ -37,7 +37,7 @@ adding_adapter_to_list = ['all']
 fine_tune_to_list = ['None']
 # None or TRUE
 finetune_layernorm = "None"
-cv_adapter_down_size_list = [64]
+cv_adapter_down_size_list = [8,16,32,64,128,256,512,1024]
 bert_adapter_down_size = 64
 # None or True
 fine_tune_lr_image_list = [1e-4]#1e-4

@@ -42,7 +42,7 @@ bert_adapter_down_size = 128
 # None or True
 fine_tune_lr_image_list = [1e-4]#1e-4
 fine_tune_lr_text_list = [5e-5]#1e-4
-seed_list = [12345]
+seed_list = [12341,12342,12433]
 em_dim_list = [64]
 l2_weight_list=[0]
 #0,1,2,3,4,5,6,7,8,9,10,11 

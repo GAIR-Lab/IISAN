@@ -133,8 +133,8 @@ def load_and_save():
 
     # load data
     # Take Scientific as an example
-    text_file_path = '../Dataset/Scientific/Industrial_and_Scientific_items.tsv'
-    lmdb_path = '../Dataset/Scientific/am_is.lmdb'
+    text_file_path = '../Dataset/Microlens/MicroLens-100k_title_en.tsv'
+    lmdb_path = '../Dataset/Microlens/am_microlens.lmdb'
     print("loading text...")
     texts = load_text_data(text_file_path)
     transform = transforms.Compose([
