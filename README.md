@@ -85,7 +85,7 @@ cd scripts/
 python run_IISAN.py
 
 ```
-## Training & Testing for IISAN-VA using Llama-3-70b
+## Training & Testing for IISAN-Versa (Asymmetrical) using Llama-3-70b
 ```
 cd Code_Cached_Asym/
 python preprocess_llama-3-70b.py
