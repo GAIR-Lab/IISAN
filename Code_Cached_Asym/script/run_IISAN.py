@@ -16,7 +16,7 @@ bert_model_load = 'bert_large_uncased'
 freeze_paras_before = 0
 
 stored_vector_path = "../stored_vectors_sci/"
-cached_image_model = "vit_tiny_outputs"
+cached_image_model = "vit_outputs"
 cached_text_model = "llama70b_GPTQ_embeddings" #llama70b_GPTQ_embeddings llama2_embeddings llama2_embeddings llama_it_embeddings mistral_7b_embeddings mistral_8x7B_it_embeddings
 mode = 'train'
 item_tower = 'modal'

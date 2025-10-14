@@ -36,7 +36,7 @@ def manual_padding(encoded_texts, max_length, pad_token_id=0):
     return padded_texts
 
 def process_items(texts, model, tokenizer, max_length=30, batch_size=128):
-    device = torch.device("cuda:2" if torch.cuda.is_available() else "cpu")
+    device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
     #device = torch.device("cpu")
     model.to(device).eval()
     
@@ -64,7 +64,7 @@ def process_items(texts, model, tokenizer, max_length=30, batch_size=128):
                 bert_outputs[item_id] = all_layers_embedding.cpu()
 
         # Release memory
-        save_outputs('stored_vectors_off/llama70b_GPTQ_embeddings', bert_outputs, prefix='llama')
+        save_outputs('stored_vectors_sci/llama70b_GPTQ_embeddings', bert_outputs, prefix='llama')
         torch.cuda.empty_cache()
         del input_tensor, encoded_input, text_batch, outputs
         torch.cuda.empty_cache()
@@ -72,14 +72,14 @@ def process_items(texts, model, tokenizer, max_length=30, batch_size=128):
     return bert_outputs
 
 def load_and_save():
-    device = torch.device("cuda:2" if torch.cuda.is_available() else "cpu")
+    device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
     print("loading LLaMA...")
     auth_token = "<your_token>"
     config = AutoConfig.from_pretrained("TechxGenus/Meta-Llama-3-70B-GPTQ",disable_exllama=True, output_hidden_states=True,token=auth_token)
     llama_tokenizer = AutoTokenizer.from_pretrained("TechxGenus/Meta-Llama-3-70B-GPTQ", token=auth_token)
     llama_model = LlamaForCausalLM.from_pretrained("TechxGenus/Meta-Llama-3-70B-GPTQ", config=config, token=auth_token)
 
-    text_file_path = '../Dataset/Office/Office_Products_items.tsv'
+    text_file_path = '../Dataset/Scientific/Industrial_and_Scientific_items.tsv'
     print("loading text...")
     texts = load_text_data(text_file_path)
 
@@ -91,7 +91,7 @@ def load_and_save():
 
 def test():
     item_id_to_test = 'B00KLMWHTE'
-    llama_output_loaded = load_output('stored_vectors_off/llama70b_GPTQ_embeddings', item_id_to_test, prefix='llama')
+    llama_output_loaded = load_output('stored_vectors_sci/llama70b_GPTQ_embeddings', item_id_to_test, prefix='llama')
     print(llama_output_loaded.shape)  # 输出加载的LLaMA输出
 
 load_and_save()

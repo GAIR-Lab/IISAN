@@ -23,7 +23,7 @@ If you are interested in adopting parameter-efficient fine-tuning (PEFT) in reco
 * [x] Release the IISAN(Cached)
 --By April 30, 2024 (Completed early on April 15, 2024)
 * [x] Release Datasets and IISAN(Cached)'s hidden states
-* [ ] Release the Implementation of IISAN-Versa --By October 15th, 2025
+* [x] Release the Implementation of IISAN-Versa --By October 15th, 2025
 
       
 
@@ -83,7 +83,19 @@ python preprocess_vectors.py
 
 cd scripts/
 python run_IISAN.py
+
 ```
+## Training & Testing for IISAN-VA using Llama-3-70b
+```
+cd Code_Cached_Asym/
+python preprocess_llama-3-70b.py
+
+cd scripts/
+python run_IISAN.py
+
+```
+
+
 
 ## Efficiency Analysis
 ![](figs/efficiency-analysis.png) 
@@ -105,11 +117,12 @@ If you find our paper useful in your work, please cite our paper as:
   pages={687--697},
   year={2024}
 }
-@article{fu2024efficient,
+@article{fu2025efficient,
   title={Efficient and effective adaptation of multimodal foundation models in sequential recommendation},
-  author={Fu, Junchen and Ge, Xuri and Xin, Xin and Karatzoglou, Alexandros and Arapakis, Ioannis and Zheng, Kaiwen and Ni, Yongxin and Jose, Joemon M},
-  journal={arXiv preprint arXiv:2411.02992},
-  year={2024}
+  author={Fu, Junchen and Ge, Xuri and Xin, Xin and Karatzoglou, Alexandros and Arapakis, Ioannis and Zheng, Kaiwen and Ni, Yongxin and Joemon, Joemon M Jose},
+  journal={IEEE Transactions on Knowledge and Data Engineering},
+  year={2025},
+  publisher={IEEE}
 }
 ```
 
