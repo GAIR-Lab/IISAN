@@ -6,7 +6,7 @@
 <a href="https://mp.weixin.qq.com/s/fiCiPehSmDCM8ys3-xMwQg" alt="中文博客"><img src="https://img.shields.io/badge/博客-中文-orange.svg?style=flat" /></a> 
 <a href="https://zhuanlan.zhihu.com/p/696297979" alt="知乎"><img src="https://img.shields.io/badge/知乎-中文-%23002FA7.svg?style=flat" /></a> 
 
-# [TKDE] Efficient and Effective Adaptation of Multimodal Foundation Models in Sequential Recommendation
+# [TKDE2025] Efficient and Effective Adaptation of Multimodal Foundation Models in Sequential Recommendation
 ![Multi-Modal](https://img.shields.io/badge/Task-Multi--Modal-red) 
 ![PEFT](https://img.shields.io/badge/Task-PEFT-red) 
 ![Recommendation](https://img.shields.io/badge/Task-Recommendation-red) 
