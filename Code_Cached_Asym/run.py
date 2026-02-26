@@ -53,6 +53,7 @@ def train(args, use_modal, local_rank):
         for index, (name, param) in enumerate(cv_model.named_parameters()):
             if index < args.freeze_paras_before:
                 param.requires_grad = False
+                
         #--------------------------------- Text ---------------------------------
 
         Log_file.info('load bert model...')
